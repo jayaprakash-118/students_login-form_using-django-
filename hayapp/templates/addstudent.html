@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Student</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            padding: 30px;
+        }
+        form {
+        border: 2px solid #807b7b; /* black border */
+        padding: 20px;
+        width: 300px;
+        margin: auto;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    button {
+        background-color: #6a60f5;
+        color: white;
+        border: 2px solid #807b7b;
+        cursor: pointer;
+        padding: 7px;
+        width: 100px;
+    }
+    .back-home{
+        text-decoration: none;
+        position: relative;
+        left:15%;
+        border: 2px solid #807b7b;
+        padding: 2%;
+    }
+        
+    </style>
+</head>
+<body>
+    <h2>➕ Add Student</h2>
+    
+    
+    <dev class="he"></dev>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        Name: <input type="text" name="stu_name" required><br><br>
+        Roll No: <input type="text" name="rollno" required><br><br>
+        Year: <input type="number" name="year" required><br><br>
+        Birthdate: <input type="date" name="birthdate" required><br><br>
+        Email: <input type="email" name="email" required><br><br>
+        Course: <input type="text" name="course" required><br><br>
+        Photo: <input type="file" name="photo" required><br><br>
+        <button type="submit">Add</button>
+        <a href="{% url 'home' %}" class="back-home">🏠 Back to Home</a><br><br>
+    </form>
+    </dev>
+</body>
+</html>
+

@@ -22,46 +22,6 @@ It allows adding, listing, and managing student records — a great beginner-lev
 - SQLite (default Django database)
 - HTML5 / CSS3
 
-
-## 📂 Project Structure
-
-students_login-form_using-django-/        ← GitHub repo root
-├── student/                              ← Django project folder (main settings)
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py                       ← Configuration: media, static, apps
-│   ├── urls.py                           ← Main URL router
-│   └── wsgi.py
-│
-├── studentapp/                           ← Your main Django app
-│   ├── migrations/
-│   │   └── __init__.py
-│   ├── templates/                        ← HTML templates
-│   │   ├── home.html
-│   │   ├── student_list.html
-│   │   └── add_student.html
-│   ├── static/                           ← Static files (CSS/images/js if any)
-│   │   └── studentapp/
-│   │       └── styles.css
-│   ├── admin.py                          ← Register model in admin
-│   ├── apps.py
-│   ├── forms.py                          ← Student form (if using ModelForm)
-│   ├── models.py                         ← Student model with ImageField
-│   ├── tests.py
-│   ├── urls.py                           ← App-specific URLs
-│   └── views.py                          ← Add/list logic here
-│
-├── media/                                ← Uploaded student photos (ImageField)
-│   └── (image files like student1.jpg, student2.png, etc.)
-│
-├── db.sqlite3                            ← SQLite database file
-├── manage.py
-├── README.md                             ← Your GitHub project description
-└── requirements.txt                      ← (Optional) Python package list
-
-
----
-
 ## ⚙️ How to Run This Project Locally
 
 Follow these steps to set up and run the project on your local machine:
@@ -89,7 +49,6 @@ venv\Scripts\activate  # Windows
 7. Run the Development Server
    python manage.py runserver
 
-# Home page
 
 
 

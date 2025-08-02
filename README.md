@@ -32,21 +32,26 @@ git clone https://github.com/jayaprakash-118/students_login-form_using-django-.g
 cd students_login-form_using-django-
 
 2. Create a Virtual Environment
+   
     python -m venv venv
     venv\Scripts\activate  # Windows
     source venv/bin/activate  # Mac/Linux
 
-3. Install Dependencies
+4. Install Dependencies
+   
   - pip install django
 
 4. Apply Migrations
+
     python manage.py makemigrations
     python manage.py migrate
 
-5. (Optional) Create a Superuser
+6. (Optional) Create a Superuser
+
     python manage.py createsuperuser
    
-7. Run the Development Server
+8. Run the Development Server
+
    python manage.py runserver
 
 

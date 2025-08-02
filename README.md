@@ -25,8 +25,7 @@ It allows adding, listing, and managing student records — a great beginner-lev
 ## ⚙️ How to Run This Project Locally
 
 Follow these steps to set up and run the project on your local machine:
-
-###  1. Clone the Repository
+  1. Clone the Repository
 
 bash or cmd
 git clone https://github.com/jayaprakash-118/students_login-form_using-django-.git

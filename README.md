@@ -54,14 +54,15 @@ cd students_login-form_using-django-
 
    python manage.py runserver
 
-# HOME PAGE 
+## HOME PAGE 
 
  ![image alt](https://github.com/jayaprakash-118/students_login-form_using-django-/blob/main/home%20page.png?raw=true)
 
-# ADD IMAGE PAGE
+## ADD IMAGE PAGE
  ![image alt](https://github.com/jayaprakash-118/students_login-form_using-django-/blob/main/addpage.png?raw=true)
 
-
+## STUDENTS LIST PAGE
+ ![image alt](https://github.com/jayaprakash-118/students_login-form_using-django-/blob/main/students_listpage.png?raw=true)
 
 
 

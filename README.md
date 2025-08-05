@@ -58,7 +58,7 @@ cd students_login-form_using-django-
 
  ![image alt](https://github.com/jayaprakash-118/students_login-form_using-django-/blob/main/home%20page.png?raw=true)
 
-## ADD IMAGE PAGE
+## ADD STUDENT DETAILS PAGE
  ![image alt](https://github.com/jayaprakash-118/students_login-form_using-django-/blob/main/addpage.png?raw=true)
 
 ## STUDENTS LIST PAGE

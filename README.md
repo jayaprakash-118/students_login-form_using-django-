@@ -34,8 +34,10 @@ cd students_login-form_using-django-
 2. Create a Virtual Environment
    
     python -m venv venv
-    venv\Scripts\activate  # Windows
-    source venv/bin/activate  # Mac/Linux
+   
+    venv\Scripts\activate       # Windows
+   
+    source venv/bin/activate      # Mac/Linux
 
 4. Install Dependencies
    

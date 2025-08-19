@@ -46,6 +46,7 @@ cd students_login-form_using-django-
 4. Apply Migrations
 
     python manage.py makemigrations
+   
     python manage.py migrate
 
 6. (Optional) Create a Superuser
